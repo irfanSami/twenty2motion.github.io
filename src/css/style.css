@@ -129,7 +129,7 @@ button.nl-normal {
 
 /* hero styling */
 #hero {
-  background-image: url(/src/images/home/banner.png);
+  background-image: url("/src/images/home/banner.png");
   height: 87vh;
   width: 100%;
   background-size: cover;
@@ -299,7 +299,7 @@ button.nl-normal {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(/src/images/banner/b2.jpg);
+  background-image: url("/src/images/banner/b2.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -337,7 +337,7 @@ button.nl-normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/src/images/banner/b17.jpg);
+  background-image: url("/src/images/banner/b17.jpg");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -346,7 +346,7 @@ button.nl-normal {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url(/src/images/banner/b10.jpg);
+  background-image: url("/src/images/banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -384,7 +384,7 @@ button.nl-normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/src/images/banner/b7.jpg);
+  background-image: url("/src/images/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -394,11 +394,11 @@ button.nl-normal {
 }
 
 #banner3 .banner-box2 {
-  background-image: url(/src/images/banner/b4.jpg);
+  background-image: url("/src/images/banner/b4.jpg");
 }
 
 #banner3 .banner-box3 {
-  background-image: url(/src/images/banner/b18.jpg);
+  background-image: url("/src/images/banner/b18.jpg");
 }
 
 #banner3 h2 {
@@ -417,7 +417,7 @@ button.nl-normal {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(/src/images/banner/b2.jpg);
+  background-image: url("/src/images/banner/b2.jpg");
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #088178;
