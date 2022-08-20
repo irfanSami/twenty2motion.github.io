@@ -129,7 +129,7 @@ button.nl-normal {
 
 /* hero styling */
 #hero {
-  background-image: url("../src/images/home/banner.png") no-repeat center;
+  background: url("src/images/home/banner.png") no-repeat center;
   height: 87vh;
   width: 100%;
   background-size: cover;
