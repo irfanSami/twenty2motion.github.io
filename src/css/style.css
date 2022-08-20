@@ -50,8 +50,8 @@ button.nl-normal {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: aqua;
   border-radius: 4px;
   cursor: pointer;
   border: none;
@@ -461,7 +461,90 @@ button.nl-normal {
   text-align: center;
   white-space: nowrap;
 }
-
+/* ===================================================================================================== */
+/* PAGES SHOP  */
+#page-header{
+  background-image: url("../images/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+#page-header h2{
+  font-size: 34px;
+}
+#pagination{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#pagination a{
+  background-color: aqua;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+/* ===================================================================================================== */
+/* Product Details  */
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 50px;
+}
+#prodetails .single-pro-details h6{
+  font-size: 14px;
+}
+#prodetails .single-pro-details h4{
+  font-size: 24px;
+  padding: 40px 0 10px 0;
+}
+#prodetails .single-pro-details h2{
+  font-size: 33px;
+}
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  text-align: center;
+}
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
+/* ===================================================================================================== */
 /* footer styling  */
 footer {
   display: flex;
