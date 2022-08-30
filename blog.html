@@ -14,8 +14,8 @@
     <div>
       <ul id="navbar">
         <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li id="lg-bag"><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
@@ -28,42 +28,51 @@
     </div>
   </section>
 
-  <section id="prodetails" class="section-p1">
-    <div class="single-pro-image">
-      <img src="./src/images/products/f1.jpg" width="100%" id="MainImg" alt="MainImages">
+  <section id="page-header" class="blog-header">
+    <h2>Read More</h2>
+    <p>Blog about twenty2motion</p>
+  </section>
 
-      <div class="small-img-group">
-        <div class="small-img-col">
-          <img src="./src/images/products/f1.jpg" width="100%" class="small-img" alt="Product">
-        </div>
-        <div class="small-img-col">
-          <img src="./src/images/products/f2.jpg" width="100%" class="small-img" alt="Product">
-        </div>
-        <div class="small-img-col">
-          <img src="./src/images/products/f3.jpg" width="100%" class="small-img" alt="Product">
-        </div>
-        <div class="small-img-col">
-          <img src="./src/images/products/f4.jpg" width="100%" class="small-img" alt="Product">
-        </div>
+  <section id="blog">
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="./src/images/blog/b1.jpg" alt="image-1">
       </div>
+      <div class="blog-details">
+        <h2>The Cotton Zip-up Hoodie</h2>
+        <p>Kickstater man Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident officia, velit ipsa tenetur doloribus iure?</p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <h1>13/01</h1>
     </div>
-    <div class="single-pro-details">
-      <h6>Home / T-Shirt</h6>
-      <h4>Men's Fashion T Shirt</h4>
-      <h2>$139.00</h2>
-      <select>
-        <option>Select Size</option>
-        <option>XXL</option>
-        <option>XL</option>
-        <option>L</option>
-        <option>M</option>
-        <option>S</option>
-      </select>
-      <input type="number" value="1">
-      <button class="nl-normal">Add to Chart</button>
-      <h4>Product Details</h4>
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, minus est possimus dicta laboriosam voluptatem sapiente expedita assumenda natus. Et, ipsam tempore. Veritatis accusamus eligendi deserunt, magni eos iusto, blanditiis dolorem sequi consectetur harum qui!</span>
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="./src/images/blog/b2.jpg" alt="image-1">
+      </div>
+      <div class="blog-details">
+        <h2>The Cotton Zip-up Hoodie</h2>
+        <p>Kickstater man Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident officia, velit ipsa tenetur doloribus iure?</p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <h1>13/01</h1>
     </div>
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="./src/images/blog/b3.jpg" alt="image-1">
+      </div>
+      <div class="blog-details">
+        <h2>The Cotton Zip-up Hoodie</h2>
+        <p>Kickstater man Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident officia, velit ipsa tenetur doloribus iure?</p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <h1>13/01</h1>
+    </div>
+  </section>
+
+  <section id="pagination">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa fa-arrow-right"></i></a>
   </section>
 
   <section id="newsletter" class="section-p1 section m1">
@@ -125,24 +134,6 @@
       <p>@2022, Irfan Sami</p>
     </div>
   </footer>
-
-  <script>
-    var MainImg = document.getElementById("MainImg");
-    var smallimg = document.getElementsByClassName("small-img");
-
-    smallimg[0].onclick = ()=>{
-      MainImg.src = smallimg[0].src;
-    }
-    smallimg[1].onclick = ()=>{
-      MainImg.src = smallimg[1].src;
-    }
-    smallimg[2].onclick = ()=>{
-      MainImg.src = smallimg[2].src;
-    }
-    smallimg[3].onclick = ()=>{
-      MainImg.src = smallimg[3].src;
-    }
-  </script>
 
   <script src="./src/js/main.js"></script>
 </body>
