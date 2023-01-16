@@ -138,7 +138,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 80px;
+  padding: 5px 15px;
   background: #5a4089;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
@@ -195,15 +195,13 @@ section{
 /* hero styling */
 .hero {
   background: url('../images/home/Banner.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #5222d0;
+  background-size: cover;
   height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position: top 25% right 0;
-  padding: 0 550px 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: end;
 }
 
 /*About Styling*/
