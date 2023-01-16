@@ -38,6 +38,10 @@ document.querySelector('.footer').addEventListener('click',()=>{
   nav.classList.remove('active');
 });
 
+document.querySelector('.hero').addEventListener('click',()=>{
+  nav.classList.remove('active');
+});
+
 let icon = document.getElementById("icon");
 icon.onclick = function(){
   document.body.classList.toggle("darkmode");
